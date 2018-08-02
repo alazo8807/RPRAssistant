@@ -229,6 +229,10 @@
     <Compile Include="Migrations\201808021645064_InitialModel.Designer.cs">
       <DependentUpon>201808021645064_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808021701141_PopulatePersonsTable.cs" />
+    <Compile Include="Migrations\201808021701141_PopulatePersonsTable.Designer.cs">
+      <DependentUpon>201808021701141_PopulatePersonsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CleaningSchedule.cs" />
@@ -318,6 +322,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201808021645064_InitialModel.resx">
       <DependentUpon>201808021645064_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808021701141_PopulatePersonsTable.resx">
+      <DependentUpon>201808021701141_PopulatePersonsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
