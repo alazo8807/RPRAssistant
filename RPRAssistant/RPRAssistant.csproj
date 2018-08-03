@@ -233,6 +233,10 @@
     <Compile Include="Migrations\201808021701141_PopulatePersonsTable.Designer.cs">
       <DependentUpon>201808021701141_PopulatePersonsTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808022041493_RenamePeopleTableNameForPersons.cs" />
+    <Compile Include="Migrations\201808022041493_RenamePeopleTableNameForPersons.Designer.cs">
+      <DependentUpon>201808022041493_RenamePeopleTableNameForPersons.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CleaningSchedule.cs" />
@@ -325,6 +329,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808021701141_PopulatePersonsTable.resx">
       <DependentUpon>201808021701141_PopulatePersonsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808022041493_RenamePeopleTableNameForPersons.resx">
+      <DependentUpon>201808022041493_RenamePeopleTableNameForPersons.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
